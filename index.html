@@ -1,30 +1,388 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="author" content="likelionSYU">
-   <title>DevToGo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>DEVTOGO</title>
 
-   <!-- CSS -->
-   <link rel="stylesheet" href="assets/css/reset.css">
-   <link rel="stylesheet" href="assets/css/style.css">
-
-   <!-- HTLM5shiv ie6~8 -->
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    
+    <!-- 웹 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&amp;subset=korean" rel="stylesheet">
+    
+    <!-- HTLM5shiv ie6~8 -->
     <!--[if lt IE 9]> 
       <script src="assets/js/html5shiv.min.js"></script>
       <script type="text/javascript">
          alert("현재 브라우저는 지원하지 않습니다. 크롬 브라우저를 추천합니다.!");
       </script>
    <![endif]-->
-
 </head>
 <body>
-   
-   <!-- 자바스크립트 라이브러리 -->
-   <script src="assets/js/jquery.min_1.12.4.js"></script>
-   <script src="assets/js/modernizr-custom.js"></script>
-   <script src="assets/js/ie-checker.js"></script>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header clearfix">
+                    <h1>
+                        <a href="#">
+                            <em><img src="assets/img/DevToGo_logo.png" alt="DEVTOGO"></em>
+                        </a>    
+                    </h1>
+                    <nav id="mNav">
+                        <h2 class="ir_so">전체메뉴</h2>
+                        <a href="#" class="ham"><span></span></a>
+                    </nav>
+                    <nav class="nav">
+                        <ul class="clearfix">
+                            <li><a href="#">콘테스트</a></li>
+                            <li><a href="#">실험실</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                            <li><a href="#">메뉴1</a></li>
+                        </ul>
+                    </nav>    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    
+    
+    <section id="banner">
+        <div class="slider">
+           <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ss1">
+                        <div class="container">
+                            <div class="row">
+                                <h3>광고 및 홍보</h3>
+                                <p>개발자 관련 광고 및 홍보 게시</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ss2">
+                        <div class="container">
+                            <div class="row">
+                                <h3>2020: 멋쟁이사자처럼 n기</h3>
+                                <p>멋쟁이사자처럼 n기 모집</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ss3">
+                        <div class="container">
+                            <div class="row">
+                                <h3>데브투고</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner -->
+    
+
+    <section id="help">
+        <div class="container">
+            <div class="row">
+                <div class="help clearfix">
+                    <article class="help_box1">
+                        <h3><em>공지사항</em></h3>
+                        <div class="notice">
+                            <ul>
+                                <li class="active"><a href="#">전체 공지</a>
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>            
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit </dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">인기글</a>
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>            
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="help_box2">
+                        <h3><em>커뮤니티</em></h3>
+                        <div class="notice">
+                            <ul>
+                                <li class="active"><a href="#">인기글</a>
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>            
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl> 
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl> 
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl> 
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">최신글</a>
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl>           
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl> 
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl> 
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">제목</strong> <em>2020.03.31</em></dt>
+                                                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit</dd>
+                                            </dl> 
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="help_box3">
+                        <h3>게시판</h3>
+                        <div class="service">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span class="img_svg">
+
+                                        </span>
+                                        <strong>내용</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="img_svg">
+                                        </span>
+                                        <strong>내용</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="img_svg">
+                                        </span>
+                                        <strong>내용</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="img_svg">
+                                        </span>
+                                        <strong>내용</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //help -->
+    
+    
+    <footer id="footer">
+        <div id="footer_infor">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_infor">
+                        <ul>
+                            <li><a href="#">프로젝트소개</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                        <address>
+                            <p>서울특별시 노원구 화랑로 815, 4층 멋쟁이사자처럼</p>
+                            <p>대표 위보람 | 창업팀 위보람 외 8기 운영진</p>
+                            <p>Copyright 2020 by LIKELION at SYU. All right reserved.</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    
+
+    <!-- 트레일러 -->
+    <aside role="complementary" id="blackout" class="overlay">
+        <div id="trailerModal" class="modal">
+            <div id="trailer"></div><!-- YouTube 플레이어로 대체되는 부분 -->
+        </div>
+        <button id="hideTrailer" class="modal_close">닫기</button>
+    </aside>
+    
+    
+    <!-- 자바스크립트 라이브러리 -->
+    <script src="assets/js/jquery.min_1.12.4.js"></script>
+    <script src="assets/js/modernizr-custom.js"></script>
+    <script src="assets/js/ie-checker.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/iframe_api.js"></script>
+    <script src="assets/js/contest.js"></script>
+    <script>
+        //배너 이미지 슬라이드
+        var swiper = new Swiper('.swiper-container',{
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+            },
+        });
+        
+        //컨테스트 차트 이미지 슬라이드
+        var swiper = new Swiper('.swiper-container2',{
+            slidesPerView: 4,
+            spaceBetween: 24,
+//            mousewheel: {
+//                invert: true,
+//            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+            autoplay: {
+                delay: 6000,
+            },
+            breakpoints: {
+                600: {
+                    slidesPerView: 1.4,
+                    spaceBetween: 24
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 24
+                },
+                960: {
+                    slidesPerView: 3,
+                    spaceBetween: 24
+                }
+            }
+        });
+        
+        //컨테스트 차트 탭 메뉴
+        var movBtn = $(".contest_title > ul > li");    
+        var movCont = $(".contest_chart > div");  
+
+        movCont.hide().eq(0).show();
+
+        movBtn.click(function(e){
+            e.preventDefault();
+            var target = $(this);         
+            var index = target.index();  
+            movBtn.removeClass("active");   
+            target.addClass("active");    
+            movCont.css("display","none");
+            movCont.eq(index).css("display","block");
+        });
+        
+        //공지사항 탭 메뉴
+        var tabMenu = $(".notice");
+
+        //컨텐츠 내용을 숨겨주세요!
+        tabMenu.find("ul > li > ul").hide();
+        tabMenu.find("li.active > ul").show();
+
+        function tabList(e){
+            e.preventDefault();       //#의 기능을 차단
+            var target = $(this);
+            target.next().show().parent("li").addClass("active").siblings("li").removeClass("active").find("ul").hide();
+            //버튼을 클릭하면 ~ div를 보여주고
+            //부모의 li 태그에 클래스 추가하고
+            //형제의 li 태그에 클래스 제거하고
+            //제거한 자식의 div 태그를 숨겨줌 
+        }
+
+        tabMenu.find("ul > li > a").click(tabList).focus(tabList);
+        
+    </script>
 </body>
 </html>
