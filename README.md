@@ -1,2 +1,2 @@
-# -likelion-word_count
-단어를 세어봅시다
+# DevToGo
+멋쟁이사자처럼atStartUp
